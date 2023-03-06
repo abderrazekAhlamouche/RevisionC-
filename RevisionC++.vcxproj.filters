@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\legacyC++">
+      <UniqueIdentifier>{e0ba4cbd-34a6-41b4-a1ac-14b4d1ca0732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\legacyC++">
+      <UniqueIdentifier>{719b3d30-b3d8-4cba-bb5c-dbbaed109103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modernC++">
+      <UniqueIdentifier>{617a1f11-3ead-40fc-8940-e0fc0fed0c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++">
+      <UniqueIdentifier>{585fb5d6-022e-4cad-8aa0-3fbfbe1980af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\containers">
+      <UniqueIdentifier>{6d625587-797f-459e-974a-da8f31af13fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\containers\inc">
+      <UniqueIdentifier>{aafc0bc5-78a9-4dce-b284-2b6fb2567e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\containers\src">
+      <UniqueIdentifier>{842f1f6f-f74f-47ba-ac8a-42dec242e713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\algorithm">
+      <UniqueIdentifier>{2d637e92-3166-4dc6-83b6-34b87a9249ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\algorithm\src">
+      <UniqueIdentifier>{a271dd06-7965-4394-a3c2-b577d798cace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\algorithm\inc">
+      <UniqueIdentifier>{17c848c6-0a72-4c37-a850-6c035d43f9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\movesemantcs">
+      <UniqueIdentifier>{7902a6df-c92f-4372-80f4-49331c515123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\movesemantcs\inc">
+      <UniqueIdentifier>{79a2ee03-ca98-4994-be8e-0a8ec7399afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\movesemantcs\src">
+      <UniqueIdentifier>{11f2b860-93d2-4ca1-8afa-c0f71f85ceb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\exceptions">
+      <UniqueIdentifier>{88b3c870-0901-4f8f-8a36-9d5ebdd84390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\exceptions\src">
+      <UniqueIdentifier>{c47485f2-adef-4c4e-879c-02b3b2e27a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modernC++\exceptions\inc">
+      <UniqueIdentifier>{4d4c932e-0373-4ef4-b643-0a865a6d08c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern">
+      <UniqueIdentifier>{7b66b92b-922f-4912-843d-a4503d056129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\behavioral">
+      <UniqueIdentifier>{c6f54d19-16d6-4eb5-bf79-ed1e4cfc631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\behavioral\inc">
+      <UniqueIdentifier>{aa5bf523-25ad-4dce-83c0-e2b39da07de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\behavioral\src">
+      <UniqueIdentifier>{bfc9db06-5988-4d22-a5d1-b9f4b4d9d41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\creational">
+      <UniqueIdentifier>{016158e9-2970-4462-95f7-abd3f5dc60af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\creational\inc">
+      <UniqueIdentifier>{b67dabf7-a563-4f12-92d8-2d041c89ee0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\creational\src">
+      <UniqueIdentifier>{eaf0f42a-1cda-4345-a501-2445fbf03d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multithreading">
+      <UniqueIdentifier>{ce721c86-0fd8-4f22-89ec-0d3ca4dd6e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multithreading\src">
+      <UniqueIdentifier>{8f1a1247-de4e-4e77-a0e2-9ab5de2ec6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multithreading\inc">
+      <UniqueIdentifier>{f4874e6f-93e3-4456-9d9d-5a6f07f49f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\structural">
+      <UniqueIdentifier>{ff566cc7-73d2-4258-a9b0-8200c40cf3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\structural\src">
+      <UniqueIdentifier>{d2dc3fbf-e257-4364-a6ec-c025e87d3180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\design pattern\structural\inc">
+      <UniqueIdentifier>{4ec4bbd4-a991-47b2-9274-6b03b6186c02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Source Files\legacyC++</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_StyleArrays.cpp">
+      <Filter>Source Files\legacyC++</Filter>
+    </ClCompile>
+    <ClCompile Include="C_StyleStrings.cpp">
+      <Filter>Source Files\legacyC++</Filter>
+    </ClCompile>
+    <ClCompile Include="Macros.cpp">
+      <Filter>Source Files\legacyC++</Filter>
+    </ClCompile>
+    <ClCompile Include="fctpointer.cpp">
+      <Filter>Source Files\legacyC++</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers.cpp">
+      <Filter>Source Files\modernC++</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambda.cpp">
+      <Filter>Source Files\modernC++</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="pair.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tuple.cpp">
+      <Filter>Header Files\modernC++\containers\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Header Files\modernC++\algorithm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="movesemantics.cpp">
+      <Filter>Header Files\modernC++\movesemantcs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Header Files\modernC++\exceptions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyPattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Templatemethode.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitorpattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainOfResponsability.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterPattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Iteratorpattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MementoPattern.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObj.cpp">
+      <Filter>Header Files\design pattern\behavioral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory_method.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract_Factory.cpp">
+      <Filter>Header Files\design pattern\creational\src</Filter>
+    </ClCompile>
+    <ClCompile Include="InitMultiThreading.cpp">
+      <Filter>Header Files\multithreading\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>Header Files\design pattern\structural\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>Header Files\design pattern\structural\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite.cpp">
+      <Filter>Header Files\design pattern\structural\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorPatterncpp.cpp">
+      <Filter>Header Files\design pattern\structural\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LegacyC++.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="C_StyleArrays.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="C_StyleStrings.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPointers.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="Casting.h">
+      <Filter>Header Files\legacyC++</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Header Files\modernC++</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambda.h">
+      <Filter>Header Files\modernC++</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="pair.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="deque.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="tuple.h">
+      <Filter>Header Files\modernC++\containers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Header Files\modernC++\algorithm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="moveSematics.h">
+      <Filter>Header Files\modernC++\movesemantcs\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\modernC++\exceptions\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsever.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyPattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethode.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitorpattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsablity.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpreterPattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorPattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="MementoPattern.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObj.h">
+      <Filter>Header Files\design pattern\behavioral\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory_method.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_factory.h">
+      <Filter>Header Files\design pattern\creational\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMultiThreading.h">
+      <Filter>Header Files\multithreading\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>Header Files\design pattern\structural\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>Header Files\design pattern\structural\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Header Files\design pattern\structural\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorPattern.h">
+      <Filter>Header Files\design pattern\structural\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
